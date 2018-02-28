@@ -2,9 +2,9 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: http://github.com/jackthorley
 
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/jackthorley
 
 customize:
     gravatar:

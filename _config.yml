@@ -27,10 +27,10 @@ customize:
         url: /images/coffee/coffee-plunger-32-a.png
         gravator: false
     social_links:
-        github: http://github.com/jackthorley
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/jackthorley
+        #twitter: /
+        #facebook: /
+        #linkedin: /
     show_all_posts: false
     post_count: 5
     highlight: rainbow

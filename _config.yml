@@ -13,21 +13,21 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/coffee/coffee-plunger.svg
         gravatar: false
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon.ico
+        url: /images/coffee/coffee-plunger-32-a.png
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/coffee/coffee-plunger-32-a.png
         gravator: false
       apple:
-        url: /images/apple-touch-icon.png
+        url: /images/coffee/coffee-plunger-32-a.png
         gravator: false
     social_links:
-        github: http://github.com/probberechts/cactus-dark
+        github: http://github.com/jackthorley
         twitter: /
         facebook: /
         linkedin: /

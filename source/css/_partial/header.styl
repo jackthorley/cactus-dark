@@ -26,10 +26,10 @@
     width: $logo-width
     height: $logo-height
     border-radius: 5px
-    filter: grayscale(100%)
+    filter: none
     background-size: $logo-width $logo-height
     background-repeat: no-repeat
-    -webkit-filter: grayscale(100%)
+    -webkit-filter: none
 
   #nav
     color: $color-accent-1
@@ -69,8 +69,8 @@
 
 #header:hover
   #logo
-    filter: none
-    -webkit-filter: none
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 
 @media screen and (max-width: 480px)
   #header #title

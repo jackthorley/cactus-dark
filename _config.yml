@@ -1,52 +1,82 @@
+##############################################################################
+# Content
+##############################################################################
+
+# Link to a page that gives an overview of all your projects.
+# This can be an external link (e.g., to you GitHub profile) or to another
+# page within your website.
+projects_url: http://github.com/probberechts
+
+# Configure the navigation menu.
+# A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
+# navigation menu. Optionally, you can add translations for the 'Key' in
+# languages/*.yml
 nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: projects_url
 
-projects_url: http://github.com/probberechts
+gravatar:
+    email: 
 
-customize:
-    gravatar:
-        email: 
-    logo:
-        enabled: true
-        width: 50
-        height: 50
-        url: /images/coffee/coffee-plunger.svg
-        gravatar: false
-    favicon: 
-      # eg. generate with http://realfavicongenerator.net/
-      desktop:
-        url: /images/coffee/coffee-plunger-32-a.png
-        gravatar: false
-      android:
-        url: /images/coffee/coffee-plunger-32-a.png
-        gravator: false
-      apple:
-        url: /images/coffee/coffee-plunger-32-a.png
-        gravator: false
-    social_links:
-        github: https://github.com/jackthorley
-        #twitter: /
-        #facebook: /
-        #linkedin: /
-    show_all_posts: false
-    post_count: 5
-    highlight: rainbow
+logo:
+    enabled: true
+    width: 50
+    height: 50
+    url: /images/coffee/coffee-plunger.svg
+    gravatar: false
 
-# RSS
+favicon: 
+  # eg. generate with http://realfavicongenerator.net/
+  desktop:
+    url: /images/coffee/coffee-plunger-32-a.png
+    gravatar: false
+  android:
+    url: /images/coffee/coffee-plunger-32-a.png
+    gravator: false
+  apple:
+    url: /images/coffee/coffee-plunger-32-a.png
+    gravator: false
+
+social_links:
+  github: https://github.com/jackthorley
+  #twitter: /
+  #facebook: /
+  #linkedin: /
+  #mail: /
+
+posts_overview:
+  show_all_posts: false
+  post_count: 5
+
+highlight: rainbow
+
+# Set the color scheme.
+# Available color schemes are 'dark', 'light', 'classic' and 'white'.
+# Alternatively, add your own custom color scheme to source/css/_colors.
+colorscheme: dark
+
 rss: false
 
-# Plugins
-plugins:
-    disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+# Turn your web pages into graph objects (see http://ogp.me).
+open_graph: 
+  fb_app_id:
+  fb_admins:
+  twitter_id:
+  google_plus:
 
-# Miscellaneous
-miscellaneous:
-    open_graph: # see http://ogp.me
-        fb_app_id:
-        fb_admins:
-        twitter_id:
-        google_plus:
+
+##############################################################################
+# Plugins
+##############################################################################
+
+# Fill in your Disqus Comments Shortname to enable Disqus comments.
+disqus: 
+  enabled: false
+  shortname: cactus-1
+
+# Fill in your Google Analytics tracking ID to enable Google Analytics.
+google_analytics: 
+  enabled: false
+  id: UA-86660611-1

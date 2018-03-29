@@ -25,19 +25,19 @@ logo:
     enabled: true
     width: 50
     height: 50
-    url: /images/coffee/coffee-plunger.svg
+    url: /images/gold-svg.svg
     gravatar: false
 
 favicon: 
   # eg. generate with http://realfavicongenerator.net/
   desktop:
-    url: /images/coffee/coffee-plunger-32-a.png
+    url: /images/gold-32.png
     gravatar: false
   android:
-    url: /images/coffee/coffee-plunger-32-a.png
+    url: /images/gold-32.png
     gravator: false
   apple:
-    url: /images/coffee/coffee-plunger-32-a.png
+    url: /images/gold-32.png
     gravator: false
 
 social_links:

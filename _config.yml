@@ -18,7 +18,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: projects_url
+  projects: http://github.com/jackthorley
 
 gravatar:
     email: 
@@ -82,9 +82,6 @@ disqus:
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics: 
   enabled: false
-<<<<<<< HEAD
-  id: UA-86660611-1
-=======
   id: UA-86660611-1
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
@@ -94,6 +91,3 @@ baidu_analytics:
 
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
-gravatar:
-  email: name@email.com
->>>>>>> 0d205490f3ecdf1f6c842ea2795ff6240d084b62

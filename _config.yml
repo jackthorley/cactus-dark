@@ -45,12 +45,12 @@ favicon:
 social_links:
   github: https://github.com/jackthorley
   #twitter: /
-  #facebook: /
-  #linkedin: /
+  #facebook: /  
+  linkedin: https://www.linkedin.com/in/jackthorley
   #mail: /
 
 posts_overview:
-  show_all_posts: false
+  show_all_posts: true
   post_count: 5
 
 highlight: rainbow

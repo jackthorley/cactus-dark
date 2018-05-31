@@ -1,6 +1,15 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
+    <% if (theme.logo && theme.logo.enabled) { %>
+        <a href="<%- url_for("/") %>">
+        <% if (theme.gravatar.email && theme.logo.gravatar) { %>
+            <div id="logo" style="background-image: url(<%- gravatar(theme.gravatar.email) %>);"></div>
+        <% } else { %>
+            <div id="logo" style="background-image: url(<%- url_for(theme.logo.url) %>);"></div>
+        <% } %>
+        </a>
+    <% } %>
+      <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
     <div class="meta">
       <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.title %><% } %></span>

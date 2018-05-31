@@ -15,7 +15,10 @@
     <% show_posts.each(function(post, i){ %>
       <li class="post-item">
         <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+        <div>
+        <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
+        <%- partial('_partial/post/preview', { post: post, class_name: 'preview' }) %>
+        </div>
       </li>
     <% }); %>
   </ul>

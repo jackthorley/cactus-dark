@@ -1,11 +1,25 @@
 article
-  header
+  #logo
+      display: inline-block
+      float: left
+      margin-right: 20px
+      width: $logo-width
+      height: $logo-height
+      border-radius: 5px
+      filter: none
+      background-size: $logo-width $logo-height
+      background-repeat: no-repeat
+      -webkit-filter: none
+
+  header  
+          
     .posttitle
       margin-top: 0
       margin-bottom: 0
       text-transform: none
       font-size: 1.5em
-      line-height: 1.25
+      line-height: 1.25    
+      display: inline-block  
 
     .meta
       margin-top: 0
@@ -116,6 +130,9 @@ article
   text-transform: none
   font-size: 1.5em
   line-height: 1.25
+  display: inline-block
+  
+
 
 .article-tag
   .tag-link
